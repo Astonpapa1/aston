@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+.active{
+  color: #fc036b;
+  text-decoration: underline;
+  font-weight: bold;
+}body, html {
+  overflow-x: hidden;
+}
+ul{
+  list-style: none;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  width: 100px;
+  height: auto;
+  margin-right: 10px;
+
+}
+.logo h1 {
+  color: aliceblue;
+  position: sticky;
+}
+.navbar{
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 20px;
+  color: goldenrod;
+
+}
+.nav-links {
+  display: flex;
+  align-items: center;
+
+}
+.nav-links li{
+  margin: 0 20px;
+  font-size: larger;
+}
+header{
+ width: 100vw;
+ height: 100vh;
+ background-image: url('../images/services/andre-volkmann-dcyUsoVMvkQ-unsplash.jpg');
+ background-position: bottom;
+ background-size: cover;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+
+}
+.header-content{
+  margin-bottom: 150px;
+  color: rosybrown;
+  text-align: center;
+}
+.header-content h2{
+  font-size: 10vmin;
+}
+.header-content h1{
+  font-size: 5vmin;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.line{
+  width: 150px;
+  height: 4px;
+  background: #fc036b;
+  margin: 10px auto;
+  border-radius: 5px;
+}
+.ctn{
+  padding: 8px 15px;
+  background-color: #fc036b;
+  border-radius: 30px;
+  color: whitesmoke;
+}
+.menu-btn {
+  position: absolute;
+  top: 30px;
+  right: 5px;
+  width: 40px;
+  cursor: pointer;
+  display: none;
+}
