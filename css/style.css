@@ -10,12 +10,14 @@ a{
   color: #fc036b;
   text-decoration: underline;
   font-weight: bold;
+
 }body, html {
   overflow-x: hidden;
 }
 ul{
   list-style: none;
 }
+
 .logo {
   display: flex;
   align-items: center;
@@ -26,10 +28,9 @@ ul{
   margin-right: 10px;
 
 }
-.logo h1 {
-  color: aliceblue;
-  position: sticky;
-}
+
+
+  
 .navbar{
   position: absolute;
   top: 0;

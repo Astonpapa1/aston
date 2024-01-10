@@ -1,4 +1,4 @@
-<style>
+
   .subsribe-button {
     background-color: rgb(200, 5, 5);
     color: white;
@@ -63,13 +63,4 @@
     cursor: pointer;
     transition: box-shadow 1s;
     vertical-align: top;
-    
-
-  } 
-  
-</style>
-
-
-<button class="subsribe-button">SUBSRIBE</button>
-<button class="join-button">JOIN </button>
-<button class="tweet-button">TWEET</button>
+  }
